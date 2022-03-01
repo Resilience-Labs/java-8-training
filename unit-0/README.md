@@ -57,3 +57,16 @@ default void call() {
     /// TODO: Your code goes here
 }
 ```
+
+4. Create a Contact and show by console writing an Application class with
+```java
+public static void main(String[] args) {
+    Contact contact = Contact.builder()
+            .name("Robert")
+            .number("+1955511235")
+            .pic("https://imgur.com/gallery/91sn32Q")
+            .build();
+
+    System.out.println(contact);
+}
+```

@@ -12,14 +12,8 @@ import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class AppTest {
-    @Test void appHasAGreeting() {
-        List<Integer> numbers = IntStream.range(0, 99)
-                .mapToObj(i -> i)
-                .collect(Collectors.toList());
+class Unit1Test {
+    @Test void happyTesting() {
 
-        numbers.sort(Comparator.comparing((a) -> (a & (a - 1)) != 0));
-
-        numbers.forEach(System.out::println);
     }
 }
