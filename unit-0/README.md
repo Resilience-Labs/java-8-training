@@ -36,6 +36,7 @@ Please take a few minutes to read and understand the concepts to answer next que
 - Don't doplicate code
 
 1. Implements the next UML class diagram
+
 ![](./assets/unit-0.drawio.svg)
 2. Write and implement next methods at *Whatsapp*
 ```java
