@@ -35,9 +35,11 @@ You can use any editor. Many developers choose [IntelliJ by Idea](https://www.je
 
 ## FAQ
 **¿Who do I contact if I have a question?**
+
 You must contact to your tutor assigned using an official channel
 
 **I already finished some activities. What should I do now?**
+
 Proceed with the following activities, if you cannot communicate it to your tutor
 
 
