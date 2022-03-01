@@ -57,5 +57,3 @@ default void call() {
     /// TODO: Your code goes here
 }
 ```
-
-4. Test your code using JUnit 5
