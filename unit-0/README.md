@@ -33,7 +33,7 @@ Please take a few minutes to read and understand the concepts to answer next que
 ## Before you must consider
 - The attributes and auxiliar methods must be defined by you
 - Think the best way to do it
-- Don't doplicate code
+- Don't duplicate code
 
 1. Implements the next UML class diagram
 

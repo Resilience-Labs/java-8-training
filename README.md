@@ -29,6 +29,7 @@ You as student must contact to your tutor using:
 - You as student must have one and just one Github  public repository for this course. [Fork this repo (Click if you don't know do this)](https://help.github.com/articles/fork-a-repo/)
 - A unit will have a folder in the root repository
 - Every folder will have a name like *unit-n* (mandatory)
+- Every folder *is* a **Gradle project**
 
 ## IDE
 You can use any editor. Many developers choose [IntelliJ by Idea](https://www.jetbrains.com/es-es/idea/download/)
