@@ -12,7 +12,9 @@ public class NumbersTest {
     @Test
     public void shouldHave100Numbers() {
         // Definition
-        List<Integer> numbers = IntStream.range(0, 99).collect(Collectors.toList());
+        List<Integer> numbers = IntStream.range(0, 99)
+                .mapToObj(i -> i)
+                .collect(Collectors.toList());
 
         // Your test code goes here
     }
@@ -46,6 +48,12 @@ public void shouldSumAllNumbers() {
 public void shouldExtractEveryPowOfTwo() {
     // Your code goes here
     // Check, in another list, if this have only numbers power of two (such as 8,16,32..)
+}
+
+@Test
+public void shouldSortByPowerOfTwoFirst() {
+    // Your code goes here
+    // Sort the numbers list ascending first power of two then any number (ascending too)
 }
 ```
 4. Answer the questions

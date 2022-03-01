@@ -4,11 +4,22 @@
 package com.java.eight.training.unit.one;
 
 import org.junit.jupiter.api.Test;
+
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
     @Test void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+        List<Integer> numbers = IntStream.range(0, 99)
+                .mapToObj(i -> i)
+                .collect(Collectors.toList());
+
+        numbers.sort(Comparator.comparing((a) -> (a & (a - 1)) != 0));
+
+        numbers.forEach(System.out::println);
     }
 }
